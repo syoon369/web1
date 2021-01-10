@@ -1,0 +1,80 @@
+body {
+    background-image: url(background_img.png);
+    background-size: 100% 100%;
+}
+.menu:hover {
+    text-decoration: underline;
+}
+
+#menu-list {
+
+}
+#logo h1, #menu-tab .menu, #logo, #menu-tab{
+    display: inline;
+    float: left;
+}
+
+/* #logo {
+    height: 200px;
+} */
+
+#logo-img {
+    width: 200px;
+    margin: 30px 100px 30px 100px;
+}
+
+#menu-tab {
+    position: absolute;
+    left: 400px;
+    width: 1000px;
+    font-size: 25px;
+    height: 300px;
+}
+
+#menu-list {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* padding-left: 5%; */
+    /* padding-right: 5%; */
+    height: 100px;
+}
+
+.menu {
+    margin: 10px 50px 10px 50px;
+}
+
+#logo {
+    width: 40%;
+    height: 300px;
+}
+
+#header {
+    height: 40%;
+}
+
+#maintext{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+#main {
+    height: 60%;
+    margin-left: 100px;
+    position: absolute;
+    top: 290px;
+}
+
+#info {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: #4A4FA0;
+    background-color: #4A4FA0;
+    padding: 20px;
+    text-align: center;
+    margin-right: 250px;
+    color: white;
+    width: 100px;
+}
